@@ -1,0 +1,484 @@
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+# ###############################################################################
+# ######### PATH OF EXILE - Item Filter #########################################
+# ######### BY: mikx ############################################################
+# ######### CLASS: Witch ########################################################
+# ######### LEAGUE(s): Harbinger ################################################
+# ######### http://git.mxmedia.info/mikx/PoE-MxFilter ###########################
+# ###############################################################################
+
+# Section: MISC
+
+Show
+    BaseType "Silver Key" "Golden Key" "Treasure Key"
+    SetTextColor 255 40 0 220
+    SetBackgroundColor 200 200 200
+    SetFontSize 45
+
+# Section: ESSENCE
+
+Show
+    BaseType "Essence"
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 100 150 200
+    SetBorderColor 30 144 255
+    SetFontSize 45
+    PlayAlertSound 4 300
+
+# Section: SKILL GEM
+
+Show
+    Quality >= 1
+    Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
+    SetTextColor 187 139 232
+    SetBackgroundColor 74 0 160 150
+    SetBorderColor 0 31 196
+    SetFontSize 45
+
+Show
+    Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
+    BaseType "Added Chaos Damage Support" "Detonate Mines" "Empower Support" "Enhance Support" "Enlighten Support" "Portal" "Vaal"
+    SetTextColor 187 139 232
+    SetBackgroundColor 74 0 160 150
+    SetBorderColor 87 15 15
+    SetFontSize 45
+
+# Section: FLASK
+
+Show
+    Class "Flask"
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 255 255 255
+    SetFontSize 35
+
+Show
+    Class "Flask"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 30 144 255
+    SetFontSize 40
+
+Show
+    Class "Flask"
+    Rarity = Unique
+    SetTextColor 180 96 0
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 180 96 0
+    SetFontSize 45
+
+# Section: MAPS
+
+Show
+    BaseType "Apprentice Cartographer's Sextant" "Journeyman Cartographer's Sextant" "Master Cartographer's Sextant"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 40 0 150
+    SetBorderColor 210 0 0
+    SetFontSize 45
+    PlayAlertSound 7 300
+
+Show
+    Class "Maps" "Labyrinth Map Item" "Map Fragments"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 210 0 0 150
+    SetBorderColor 112 5 5
+    SetFontSize 30
+    PlayAlertSound 1 300
+
+Show
+    Class "Maps" "Labyrinth Map Item" "Map Fragments"
+    Rarity = Magic
+    SetTextColor 0 0 255
+    SetBackgroundColor 210 0 0 150
+    SetBorderColor 112 5 5
+    SetFontSize 35
+    PlayAlertSound 1 300
+
+Show
+    Class "Maps" "Labyrinth Map Item" "Map Fragments"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 210 0 0 150
+    SetBorderColor 112 5 5
+    SetFontSize 40
+    PlayAlertSound 1 300
+
+Show
+    Class "Maps" "Labyrinth Map Item" "Map Fragments"
+    Rarity = Unique
+    SetTextColor 255 136 0
+    SetBackgroundColor 210 0 0 150
+    SetBorderColor 112 5 5
+    SetFontSize 45
+    PlayAlertSound 1 300
+
+# Section: JEWEL
+
+Show
+    Class "Jewel"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 30 144 255
+    SetBorderColor 12 8 36
+    SetFontSize 30
+    PlayAlertSound 6 300
+
+Show
+    Class "Jewel"
+    Rarity = Magic
+    SetTextColor 0 0 255
+    SetBackgroundColor 30 144 255
+    SetBorderColor 12 8 36
+    SetFontSize 35
+    PlayAlertSound 6 300
+
+Show
+    Class "Jewel"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 30 144 255
+    SetBorderColor 12 8 36
+    SetFontSize 40
+    PlayAlertSound 6 300
+
+Show
+    Class "Jewel"
+    Rarity = Unique
+    SetTextColor 175 96 37
+    SetBackgroundColor 30 144 255
+    SetBorderColor 12 8 36
+    SetFontSize 45
+    PlayAlertSound 6 300
+
+# Section: DIVINATION CARD (>10c)
+
+Show
+    Class "Divination Card"
+    BaseType "House of Mirrors" "The Doctor" "The Fiend" "Spark" "Hunter's Reward" "The Queen" "The Immortal" "Pride Before the Fall" "The King's Heart" "Mawr Blaidd" "The Wolf" "The Dragon's Heart" "Standoff" "Abandoned Wealth" "The Celestial Justicar" "The Last One Standing" "The Hunger" "Wealth and Power" "The Brittle Emperor" "Last Hope" "The Valkyrie" "Bowyer's Dream" "The Artist"
+    SetTextColor 20 65 110
+    SetBackgroundColor 224 224 224
+    SetBorderColor 57 97 145
+    SetFontSize 45
+    PlayAlertSound 5 300
+
+# Section: DIVINATION CARD
+
+Show
+    Class "Divination Card"
+    SetTextColor 20 65 110
+    SetBackgroundColor 127 127 127
+    SetBorderColor 57 97 145
+    SetFontSize 40
+    PlayAlertSound 5 300
+
+# Section: CURRENCY
+
+Show
+    BaseType "Scroll of Wisdom" "Portal Scroll"
+    SetTextColor 255 165 0
+    SetBackgroundColor 0 0 0 150
+    SetFontSize 30
+
+Show
+    BaseType "Chaos Orb" "Exalted Orb" "Mirror of Kalandra" "Orb of Regret"
+    SetTextColor 82 49 32
+    SetBackgroundColor 247 108 37
+    SetBorderColor 175 96 37
+    SetFontSize 45
+    PlayAlertSound 7 300
+
+Show
+    BaseType "Cartographer's Chisel" "Divine Orb" "Gemcutter's Prism" "Regal Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Orb of Chance" "Jeweller's Orb"
+    SetTextColor 255 165 0
+    SetBackgroundColor 54 32 3
+    SetBorderColor 175 96 37
+    SetFontSize 40
+    PlayAlertSound 4 300
+
+Show
+    Class "Currency" "Stackable Currency" "Fishing Rods"
+    SetTextColor 255 165 0
+    SetBackgroundColor 0 0 0
+    SetBorderColor 175 96 37
+    SetFontSize 35
+    PlayAlertSound 3 100
+
+Show
+    BaseType "Shard"
+    SetTextColor 255 165 0
+    SetBackgroundColor 0 0 10 150
+    SetBorderColor 255 165 0
+    SetFontSize 30
+    PlayAlertSound 3 100
+
+# Section: RING & AMULET (NORMAL/MAGIC)
+
+Show
+    Class "Rings"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0 150
+    SetBorderColor 0 0 0
+    SetFontSize 30
+
+Show
+    Class "Amulets"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0 150
+    SetBorderColor 0 0 0
+    SetFontSize 30
+
+# Section: EXPENSIVE UNIQUE (>20c) (Maps)
+
+Show
+    BaseType "Chateau Map" "Museum Map" "Courtyard Map"
+    Rarity = Unique
+    SetTextColor 222 95 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 180 96 0
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Section: EXPENSIVE UNIQUE (>20c) (Flasks)
+
+Show
+    BaseType "Topaz Flask" "Sapphire Flask" "Stibnite Flask" "Ruby Flask" "Sanctified Life Flask" "Topaz Flask"
+    Rarity = Unique
+    SetTextColor 222 95 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 180 96 0
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Section: EXPENSIVE UNIQUE (>20c) (Weapons)
+
+Show
+    BaseType "Cutlass" "Ritual Sceptre" "Vaal Axe" "Infernal Sword" "Prophecy Wand" "Steelhead" "Vaal Blade" "Royal Bow" "Death Bow" "Despot Axe" "Void Axe" "Maelström Staff"
+    Rarity = Unique
+    SetTextColor 222 95 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 180 96 0
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Section: EXPENSIVE UNIQUE (>20c) (Armours)
+
+Show
+    BaseType "Vaal Gauntlets" "Sorcerer Boots" "Ebony Tower Shield" "Legion Gloves" "Glorious Plate" "Raven Mask" "Ezomyte Tower Shield" "Crusader Boots" "Rawhide Boots" "Clasped Mitts" "Goathide Boots" "Hubris Circlet" "Two-Point Arrow Quiver" "Mind Cage" "Sacrificial Garb" "Callous Mask" "Close Helmet" "Occultist's Vestment" "Exquisite Leather" "Wyrmscale Doublet" "Prophet Crown" "Cedar Tower Shield" "Full Wyrmscale" "Callous Mask"
+    Rarity = Unique
+    SetTextColor 222 95 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 180 96 0
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Section: EXPENSIVE UNIQUE (>20c) (Accessories)
+
+Show
+    BaseType "Leather Belt" "Rustic Sash" "Amber Amulet" "Prismatic Ring" "Two-Stone Ring" "Agate Amulet" "Citrine Amulet" "Jade Amulet" "Topaz Ring" "Black Maw Talisman" "Diamond Ring" "Lapis Amulet" "Turquoise Amulet" "Onyx Amulet" "Wereclaw Talisman" "Ruby Amulet"
+    Rarity = Unique
+    SetTextColor 222 95 0
+    SetBackgroundColor 255 255 255
+    SetBorderColor 180 96 0
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Section: GEAR BY QUALITY
+
+Show
+    Rarity = Unique
+    SetTextColor 0 0 0
+    SetBackgroundColor 180 96 0
+    SetBorderColor 130 58 3
+    SetFontSize 40
+    PlayAlertSound 8 300
+
+Show
+    Rarity = Rare
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 119 150
+    SetBorderColor 233 235 8
+    SetFontSize 35
+
+Show
+    LinkedSockets >= 3
+    Rarity = Rare
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 119
+    SetBorderColor 126 133 6
+    SetFontSize 40
+
+Show
+    Sockets >= 5
+    Rarity = Rare
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 119
+    SetBorderColor 126 133 6
+    SetFontSize 45
+
+# Section: CHANCING (Body)
+
+# Glorious Plate (Kaom's Heart Chancing)
+Show
+    BaseType "Glorious Plate" "Sacrificial Garb" "Occultist's Vestment" "Exquisite Leather" "Wyrmscale Doublet"
+    Rarity = Normal
+    SetTextColor 222 180 123
+    SetBorderColor 50 230 100
+    SetFontSize 40
+    PlayAlertSound 8 300
+
+# Section: CHANCING (Boots)
+
+# Glorious Plate (Kaom's Heart Chancing)
+Show
+    BaseType "Sorcerer Boots" "Crusader Boots" "Rawhide Boots" "Goathide Boots"
+    Rarity = Normal
+    SetTextColor 222 180 123
+    SetBorderColor 50 230 100
+    SetFontSize 35
+    PlayAlertSound 8 300
+
+# Section: CHANCING (Gloves)
+
+# Glorious Plate (Kaom's Heart Chancing)
+Show
+    BaseType "Vaal Gauntlets" "Legion Gloves" "Clasped Mitts"
+    Rarity = Normal
+    SetTextColor 222 180 123
+    SetBorderColor 50 230 100
+    SetFontSize 35
+    PlayAlertSound 8 300
+
+# Section: CHANCING (Helmet)
+
+# Close Helmet (The Baron Chancing)
+Show
+    BaseType "Raven Mask" "Hubris Circlet" "Mind Cage" "Callous Mask" "Close Helmet"
+    Rarity = Normal
+    SetTextColor 222 180 123
+    SetBorderColor 50 230 100
+    SetFontSize 35
+    PlayAlertSound 8 300
+
+# Section: CHANCING (Quiver)
+
+# Close Helmet (The Baron Chancing)
+Show
+    BaseType "Two-Point Arrow Quiver"
+    Rarity = Normal
+    SetTextColor 222 180 123
+    SetBorderColor 50 230 100
+    SetFontSize 40
+    PlayAlertSound 8 300
+
+# Section: CHANCING (Shield)
+
+# Close Helmet (The Baron Chancing)
+Show
+    BaseType "Ebony Tower Shield" "Ezomyte Tower Shield"
+    Rarity = Normal
+    SetTextColor 222 180 123
+    SetBorderColor 50 230 100
+    SetFontSize 45
+    PlayAlertSound 8 300
+
+# Section: CHANCING (Belt)
+
+# Deicide Mask (Heretic's Veil Chancing)
+Show
+    BaseType "Leather Belt" "Rustic Sash"
+    Rarity = Normal
+    SetTextColor 222 180 123
+    SetBorderColor 50 230 100
+    SetFontSize 30
+    PlayAlertSound 8 300
+
+# Section: GEAR SOCKETS
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Rare
+    SetTextColor 255 215 0
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 38
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Magic
+    SetTextColor 0 0 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 38
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 38
+
+Show
+    Sockets = 6
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 74 53 86
+    SetBorderColor 74 0 160 200
+    SetFontSize 45
+    PlayAlertSound 2 100
+
+Show
+    Sockets = 6
+    Rarity = Magic
+    SetTextColor 136 136 255
+    SetBackgroundColor 74 53 86
+    SetBorderColor 74 0 160 200
+    SetFontSize 45
+    PlayAlertSound 2 200
+
+Show
+    Sockets = 6
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 74 53 86
+    SetBorderColor 74 0 160 200
+    SetFontSize 45
+    PlayAlertSound 2 300
+
+# Section: HIDE
+
+Hide
+    Quality = 0
+    Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
+
+Hide
+    Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
+
+Hide
+    Sockets < 3
+    Rarity = Magic
+
+Hide
+    Sockets < 3
+    Rarity = Normal
+
+Hide
+    LinkedSockets = 0
+    Rarity = Magic
+
+Hide
+    LinkedSockets = 0
+    Rarity = Normal
+
+Hide
+    Rarity = Magic
+
+Hide
+    Rarity = Normal
+
