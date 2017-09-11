@@ -1,3 +1,8 @@
+[September 11, 2017][2.1.0]
+- Introducing Tier A / Tier B Filter. TA = Most valuable rare and TB = second most valuable rare.
+- Removed the sound from all the chancing filter. They are easy to see, there is no need for a sound notification.
+- Tweaked the chancing color to be more unique and a lot more visible due to the fact they don't make a sound anymore.
+
 [September 9, 2017][2.0.0]
 > 2.0.0 is a MASSIVE overhaul with a lot of tuning thanks to poe.ninja and my personal experience.
 - Added a chancing section for each type of gears/accessories based on their value/size
