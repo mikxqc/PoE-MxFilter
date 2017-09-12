@@ -2,12 +2,17 @@
 # ###############################################################################
 # ######### PATH OF EXILE - Item Filter #########################################
 # ######### BY: mikx ############################################################
-# ######### CLASS: Witch ########################################################
-# ######### LEAGUE(s): Harbinger ################################################
 # ######### http://git.mxmedia.info/mikx/PoE-MxFilter ###########################
 # ###############################################################################
 
 # Section: MISC
+
+Show
+    Class "Quest Items"
+    SetTextColor 0 0 0
+    SetBackgroundColor 50 230 100
+    SetBorderColor 18 89 38
+    SetFontSize 45
 
 Show
     BaseType "Silver Key" "Golden Key" "Treasure Key"
@@ -255,7 +260,7 @@ Show
 # Section: EXPENSIVE UNIQUE (>20c) (Weapons)
 
 Show
-    BaseType "Cutlass" "Ritual Sceptre" "Vaal Axe" "Infernal Sword" "Prophecy Wand" "Steelhead" "Vaal Blade" "Royal Bow" "Death Bow" "Despot Axe" "Void Axe" "Maelström Staff"
+    BaseType "Cutlass" "Ritual Sceptre" "Vaal Axe" "Infernal Sword" "Prophecy Wand" "Steelhead" "Vaal Blade" "Royal Bow" "Death Bow" "Despot Axe" "Void Axe" "Maelström Staff" "Imperial Bow"
     Rarity = Unique
     SetTextColor 222 95 0
     SetBackgroundColor 255 255 255
@@ -284,6 +289,26 @@ Show
     SetBorderColor 180 96 0
     SetFontSize 45
     PlayAlertSound 8 300
+
+# Section: Tier A Gear
+
+Show
+    BaseType "Ambusher" "Platinum Kris" "Imbued Wand" "Jewelled Foil" "Imperial Claw" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler" "Colossal Tower Shield" "Siege Axe" "Astral Plate"
+    Rarity = Rare
+    SetTextColor 75 252 57
+    SetBackgroundColor 147 156 11 150
+    SetBorderColor 255 200 0
+    SetFontSize 40
+
+# Section: Tier B Gear
+
+Show
+    BaseType "Gemini Claw" "Tornado Wand" "Opal Wand" "Prophecy Wand" "Vaal Rapier" "Harpy Rapier" "Profane Wand" "Spiraled Foil" "Skean" "Kris" "Demon Dagger" "Ezomyte Dagger" "Corsair Sword" "Vaal Axe" "Coronal Maul" "Harbinger Bow" "Void Sceptre" "Sambar Sceptre" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Eternal Burgonet" "Sinner Tricorne" "Solaris Circlet" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver"
+    Rarity = Rare
+    SetTextColor 6 64 6
+    SetBackgroundColor 147 156 11 150
+    SetBorderColor 255 200 0
+    SetFontSize 40
 
 # Section: GEAR BY QUALITY
 
@@ -316,26 +341,6 @@ Show
     SetTextColor 255 255 0
     SetBackgroundColor 0 0 0 40
     SetFontSize 35
-
-# Section: Tier A Gear
-
-Show
-    BaseType "Ambusher" "Platinum Kris" "Imbued Wand" "Jewelled Foil" "Imperial Claw" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler" "Colossal Tower Shield" "Siege Axe" "Astral Plate"
-    Rarity = Rare
-    SetTextColor 75 252 57
-    SetBackgroundColor 147 156 11 150
-    SetBorderColor 255 200 0
-    SetFontSize 40
-
-# Section: Tier B Gear
-
-Show
-	BaseType "Gemini Claw" "Tornado Wand" "Opal Wand" "Prophecy Wand" "Vaal Rapier" "Harpy Rapier" "Profane Wand" "Spiraled Foil" "Skean" "Kris" "Demon Dagger" "Ezomyte Dagger" "Corsair Sword" "Vaal Axe" "Coronal Maul" "Harbinger Bow" "Void Sceptre" "Sambar Sceptre" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Eternal Burgonet" "Sinner Tricorne" "Solaris Circlet" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" 
-    Rarity = Rare
-    SetTextColor 6 64 6
-    SetBackgroundColor 147 156 11 150
-    SetBorderColor 255 200 0
-    SetFontSize 40
 
 # Section: CHANCING (Body)
 

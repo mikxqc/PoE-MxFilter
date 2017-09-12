@@ -1,3 +1,8 @@
+[September 12, 2017][2.2.0]
+- Added a Quest Items Filter.
+- Added "Imperial Bow" to the Expensive Unique (Weapons) Filter.
+- Fixed Tier A & Tier B Filter order.
+
 [September 11, 2017][2.1.0]
 - Introducing Tier A / Tier B Filter. TA = Most valuable rare and TB = second most valuable rare.
 - Removed the sound from all the chancing filter. They are easy to see, there is no need for a sound notification.
