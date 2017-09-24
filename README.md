@@ -18,6 +18,6 @@ Use it "as-is" or just modify it yourself. **I WILL NOT MODIFY IT FOR YOU.**
 
 ## Repo
 
-**Git Repo:** http://git.mxmedia.info/mikx/PoE-MxFilter.git  
-**Issue(s):** http://git.mxmedia.info/mikx/PoE-MxFilter/issues  
+**Git Repo:** http://git.mikx.xyz/mikx/PoE-MxFilter.git  
+**Issue(s):** http://git.mikx.xyz/mikx/PoE-MxFilter/issues  
 **Twitter:** https://twitter.com/MiKxQc  
