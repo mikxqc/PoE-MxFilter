@@ -1,3 +1,10 @@
+[October 12, 2017][2.3.0]
+- Added a Tier C Filter for object worth picking up for personal usage/crafting and/or profit with amazing roll.
+- Active Skill Filters are now sized based on their quality and Vaal Skills are now colored to be easily identified.
+- Tweaked the Tier Filter color.
+- Tweaked some filters color.
+- Fixed the Gear Sockets Filter order.
+
 [September 12, 2017][2.2.0]
 - Added a Quest Items Filter.
 - Added "Imperial Bow" to the Expensive Unique (Weapons) Filter.
