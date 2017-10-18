@@ -1,6 +1,5 @@
 **Path of Exile - Loot Filter(s)**  
 All the included filter are created by mikx.  
-If you downloaded my filter from somewhere else, join **license@mxmedia.info**   
 
 ## MxFilter.filter  
 **Sound(s):** Yes  

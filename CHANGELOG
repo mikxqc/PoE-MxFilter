@@ -1,3 +1,23 @@
+[October 18, 2017][2.4.0]
+~	Tweaked the Magic Map Filter color.
+>	Modified the way valuable currencies are displayed.
++	Added a Exalted Orb, Mirror of Kalandra, Ancient Orb and Divine Orb Filter.
++	Added a Chaos Orb Filter.
+>	Modified the way Currency Shards are displayed.
++	Added a Shard Filter for the most valuable currency.
++	Added a Shard Filter for valuable currency.
++	Added a Shard Filter for desirable currency.
++	Added a Shard Filter for regular currency.
+>	Modified the way Rings and Amulets (Normal, Magic and Rare) are displayed.
++	Added a Normal Ring Filter.
++	Added a Magic Ring Filter.
++	Added a Rare Ring Filter.
++	Added a Normal Amulet Filter.
++	Added a Magic Amulet Filter.
++	Added a Rare Amulet Filter.
+~	Tweaked the Tier A, B and C Filter color and transparency.
+T	"Bone Helmet" has been moved to Tier A due to the new popularity of Spectres Build. (Upgraded from Tier C)
+
 [October 12, 2017][2.3.0]
 - Added a Tier C Filter for object worth picking up for personal usage/crafting and/or profit with amazing roll.
 - Active Skill Filters are now sized based on their quality and Vaal Skills are now colored to be easily identified.
