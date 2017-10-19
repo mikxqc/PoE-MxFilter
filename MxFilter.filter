@@ -75,12 +75,93 @@ Show
     SetBorderColor 235 129 129
     SetFontSize 45
 
-# Section: FLASK
+# Section: FLASK (LIFE)
+
+Show
+    Class "Flask"
+    BaseType "Life"
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 210 0 0
+    SetFontSize 35
+
+Show
+    Class "Flask"
+    BaseType "Life"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 210 0 0
+    SetFontSize 40
+
+Show
+    Class "Flask"
+    BaseType "Life"
+    Rarity = Unique
+    SetTextColor 180 96 0
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 210 0 0
+    SetFontSize 45
+
+# Section: FLASK (MANA)
+
+Show
+    Class "Flask"
+    BaseType "Mana"
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 0 0 255
+    SetFontSize 35
+
+Show
+    Class "Flask"
+    BaseType "Mana"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 0 0 255
+    SetFontSize 40
+
+Show
+    Class "Flask"
+    BaseType "Mana"
+    Rarity = Unique
+    SetTextColor 180 96 0
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 0 0 255
+    SetFontSize 45
+
+# Section: FLASK (HYBRID)
+
+Show
+    Class "Flask"
+    BaseType "Hybrid"
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 71 3 71
+    SetFontSize 35
+
+Show
+    Class "Flask"
+    BaseType "Hybrid"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 71 3 71
+    SetFontSize 40
+
+Show
+    Class "Flask"
+    BaseType "Hybrid"
+    Rarity = Unique
+    SetTextColor 180 96 0
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 71 3 71
+    SetFontSize 45
+
+# Section: FLASK (OTHERS)
 
 Show
     Class "Flask"
     SetBackgroundColor 74 0 160 200
-    SetBorderColor 255 255 255
+    SetBorderColor 128 128 128
     SetFontSize 35
 
 Show
@@ -88,7 +169,7 @@ Show
     Rarity = Magic
     SetTextColor 30 144 255
     SetBackgroundColor 74 0 160 200
-    SetBorderColor 30 144 255
+    SetBorderColor 128 128 128
     SetFontSize 40
 
 Show
@@ -96,7 +177,7 @@ Show
     Rarity = Unique
     SetTextColor 180 96 0
     SetBackgroundColor 74 0 160 200
-    SetBorderColor 180 96 0
+    SetBorderColor 128 128 128
     SetFontSize 45
 
 # Section: MAPS
@@ -233,7 +314,16 @@ Show
 
 Show
     Class "Currency"
-    BaseType "Cartographer's Chisel" "Gemcutter's Prism" "Regal Orb" "Vaal Orb" "Orb of Scouring" "Orb of Fusing" "Orb of Chance" "Jeweller's Orb"
+    BaseType "Orb of Fusing" "Orb of Scouring" "Gemcutter's Prism" "Orb of Regret" "Vaal Orb" "Cartographer's Chisel" "Orb of Annulment"
+    SetTextColor 48 28 18
+    SetBackgroundColor 196 87 30
+    SetBorderColor 110 53 10
+    SetFontSize 40
+    PlayAlertSound 4 300
+
+Show
+    Class "Currency"
+    BaseType "Regal Orb" "Orb of Chance" "Jeweller's Orb" "Chromatic Orb"
     SetTextColor 255 165 0
     SetBackgroundColor 54 32 3
     SetBorderColor 175 96 37
@@ -244,7 +334,7 @@ Show
     Class "Currency"
     BaseType "Exalted Shard" "Ancient Shard" "Mirror Shard"
     SetTextColor 212 58 11
-    SetBackgroundColor 255 255 255 150
+    SetBackgroundColor 255 255 255 220
     SetBorderColor 210 0 0
     SetFontSize 30
     PlayAlertSound 3 100
@@ -253,7 +343,7 @@ Show
     Class "Currency"
     BaseType "Chaos Shard"
     SetTextColor 0 0 0
-    SetBackgroundColor 212 93 44 150
+    SetBackgroundColor 212 93 44 220
     SetBorderColor 212 93 44
     SetFontSize 30
     PlayAlertSound 3 100
@@ -413,8 +503,8 @@ Show
     BaseType "Ambusher" "Platinum Kris" "Imbued Wand" "Jewelled Foil" "Imperial Claw" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler" "Colossal Tower Shield" "Siege Axe" "Astral Plate" "Bone Helmet"
     Rarity = Rare
     SetTextColor 255 255 0
-    SetBackgroundColor 75 252 57 240
-    SetBorderColor 75 252 57
+    SetBackgroundColor 50 230 100
+    SetBorderColor 0 163 73 240
     SetFontSize 40
 
 # Section: Tier B Gear
@@ -422,49 +512,22 @@ Show
 Show
     BaseType "Gemini Claw" "Tornado Wand" "Opal Wand" "Prophecy Wand" "Vaal Rapier" "Harpy Rapier" "Profane Wand" "Spiraled Foil" "Skean" "Kris" "Demon Dagger" "Ezomyte Dagger" "Corsair Sword" "Vaal Axe" "Coronal Maul" "Harbinger Bow" "Void Sceptre" "Sambar Sceptre" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Eternal Burgonet" "Sinner Tricorne" "Solaris Circlet" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver"
     Rarity = Rare
-    SetTextColor 255 255 119
-    SetBackgroundColor 33 120 25 240
-    SetBorderColor 6 64 6
+    SetTextColor 255 255 0
+    SetBackgroundColor 37 176 76
+    SetBorderColor 27 120 53
     SetFontSize 40
 
 # Section: Tier C Gear
 
 Show
-    BaseType "Chain Belt" "Cloth Belt" "Iron Ring" "Gold Ring" "Unset Ring" "Two-Stone Ring" "Rustic Sash"
+    BaseType "Chain Belt" "Cloth Belt" "Iron Ring" "Gold Ring" "Unset Ring" "Two-Stone Ring" "Rustic Sash" "Death Bow"
     Rarity = Rare
-    SetTextColor 255 255 119
-    SetBackgroundColor 10 38 7 240
-    SetBorderColor 0 0 0 150
+    SetTextColor 255 255 0
+    SetBackgroundColor 18 84 36
+    SetBorderColor 14 64 28
     SetFontSize 40
 
 # Section: GEAR SOCKETS
-
-Show
-    LinkedSockets >= 3
-    SocketGroup "RGB"
-    Rarity = Rare
-    SetTextColor 255 215 0
-    SetBackgroundColor 127 127 127
-    SetBorderColor 99 92 92
-    SetFontSize 38
-
-Show
-    LinkedSockets >= 3
-    SocketGroup "RGB"
-    Rarity = Magic
-    SetTextColor 0 0 255
-    SetBackgroundColor 127 127 127
-    SetBorderColor 99 92 92
-    SetFontSize 38
-
-Show
-    LinkedSockets >= 3
-    SocketGroup "RGB"
-    Rarity = Normal
-    SetTextColor 255 255 255
-    SetBackgroundColor 127 127 127
-    SetBorderColor 99 92 92
-    SetFontSize 38
 
 Show
     Sockets = 6
@@ -493,6 +556,33 @@ Show
     SetFontSize 45
     PlayAlertSound 2 300
 
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Rare
+    SetTextColor 255 215 0
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 38
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Magic
+    SetTextColor 0 0 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 38
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 38
+
 # Section: GEAR BY QUALITY
 
 Show
@@ -507,7 +597,7 @@ Show
     Sockets >= 3
     Rarity = Rare
     SetTextColor 0 0 0
-    SetBackgroundColor 255 255 119 100
+    SetBackgroundColor 255 255 119 220
     SetBorderColor 126 133 6
     SetFontSize 30
 
@@ -515,14 +605,14 @@ Show
     Sockets >= 5
     Rarity = Rare
     SetTextColor 0 0 0
-    SetBackgroundColor 255 255 119 150
+    SetBackgroundColor 255 255 119 230
     SetBorderColor 126 133 6
     SetFontSize 35
 
 Show
     Rarity = Rare
     SetTextColor 255 255 0
-    SetBackgroundColor 0 0 0 80
+    SetBackgroundColor 0 0 0 210
     SetFontSize 35
 
 # Section: CHANCING (Body)

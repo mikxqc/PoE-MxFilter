@@ -1,3 +1,30 @@
+[October 19, 2017][2.5.0]
+>	Divided Flask Filter into categories for easier identification. (Life, Mana, Hybrid and Others)
++	Added a Normal Life Flask Filter.
++	Added a Magic Life Flask Filter.
++	Added a Unique Life Flask Filter.
++	Added a Normal Mana Flask Filter.
++	Added a Magic Mana Flask Filter.
++	Added a Unique Mana Flask Filter.
++	Added a Normal Hybrid Flask Filter.
++	Added a Magic Hybrid Flask Filter.
++	Added a Unique Hybrid Flask Filter.
++	Added a Normal Others Flask Filter.
++	Added a Magic Others Flask Filter.
++	Added a Unique Others Flask Filter.
+>	Various Currency Filter fixes and optimizations.
++	Added a Currency Filter for semi valuable currency.
+~	Tweaked the Currency Shards Filter color and transparency.
+>	Changed the Tier Filters colors to fix a visiblity problem with Tier A. 
+~	Tweaked the Tier A Filter color.
+~	Tweaked the Tier B Filter color.
+~	Tweaked the Tier C Filter color.
+T	"Death Bow" has been added to Tier C.
+>	Ordered all the 6 Sockets Filter before the 3 Sockets (Chromatic Orb Recipe) Filter.
+>	Transparency was a problem for 3 Sockets and 5 Sockets Rare Filter.
+~	Tweaked >=3 Sockets Rare Filter transparency.
+~	Tweaked >=5 Sockets Rare Filter transparency.
+
 [October 18, 2017][2.4.0]
 ~	Tweaked the Magic Map Filter color.
 >	Modified the way valuable currencies are displayed.
