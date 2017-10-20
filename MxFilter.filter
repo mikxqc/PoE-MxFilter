@@ -386,7 +386,7 @@ Show
 # Section: EXPENSIVE UNIQUE (>20c) (Maps)
 
 Show
-    BaseType "Chateau Map" "Museum Map" "Courtyard Map"
+    BaseType "Chateau Map" "Museum Map" "Courtyard Map" "Harbinger Map"
     Rarity = Unique
     SetTextColor 222 95 0
     SetBackgroundColor 255 255 255
@@ -408,7 +408,7 @@ Show
 # Section: EXPENSIVE UNIQUE (>20c) (Weapons)
 
 Show
-    BaseType "Cutlass" "Ritual Sceptre" "Vaal Axe" "Infernal Sword" "Prophecy Wand" "Steelhead" "Vaal Blade" "Royal Bow" "Death Bow" "Despot Axe" "Void Axe" "Maelström Staff" "Imperial Bow"
+    BaseType "Cutlass" "Ritual Sceptre" "Vaal Axe" "Infernal Sword" "Prophecy Wand" "Steelhead" "Vaal Blade" "Royal Bow" "Despot Axe" "Maelström Staff" "Imperial Bow" "Jewelled Foil" "Sage Wand"
     Rarity = Unique
     SetTextColor 222 95 0
     SetBackgroundColor 255 255 255
@@ -419,7 +419,7 @@ Show
 # Section: EXPENSIVE UNIQUE (>20c) (Armours)
 
 Show
-    BaseType "Vaal Gauntlets" "Sorcerer Boots" "Ebony Tower Shield" "Legion Gloves" "Glorious Plate" "Raven Mask" "Ezomyte Tower Shield" "Crusader Boots" "Rawhide Boots" "Clasped Mitts" "Goathide Boots" "Hubris Circlet" "Two-Point Arrow Quiver" "Mind Cage" "Sacrificial Garb" "Callous Mask" "Close Helmet" "Occultist's Vestment" "Exquisite Leather" "Wyrmscale Doublet" "Prophet Crown" "Cedar Tower Shield" "Full Wyrmscale" "Callous Mask"
+    BaseType "Vaal Gauntlets" "Sorcerer Boots" "Ebony Tower Shield" "Legion Gloves" "Glorious Plate" "Raven Mask" "Ezomyte Tower Shield" "Crusader Boots" "Rawhide Boots" "Clasped Mitts" "Goathide Boots" "Hubris Circlet" "Two-Point Arrow Quiver" "Mind Cage" "Sacrificial Garb" "Callous Mask" "Close Helmet" "Occultist's Vestment" "Exquisite Leather" "Wyrmscale Doublet" "Prophet Crown" "Cedar Tower Shield" "Full Wyrmscale" "Callous Mask" "Raven Mask" "Sage's Robe" "Arcanist Slippers" "Blunt Arrow Quiver"
     Rarity = Unique
     SetTextColor 222 95 0
     SetBackgroundColor 255 255 255
@@ -441,7 +441,7 @@ Show
 # Section: Tier A Gear
 
 Show
-    BaseType "Ambusher" "Platinum Kris" "Imbued Wand" "Jewelled Foil" "Imperial Claw" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler" "Colossal Tower Shield" "Siege Axe" "Astral Plate" "Bone Helmet"
+    BaseType "Ambusher" "Platinum Kris" "Imbued Wand" "Jewelled Foil" "Imperial Claw" "Titan Gauntlets" "Lion Pelt" "Slink Boots" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Hubris Circlet" "Titanium Spirit Shield" "Imperial Buckler" "Colossal Tower Shield" "Siege Axe" "Astral Plate" "Bone Helmet" "Two-Stone Ring"
     Rarity = Rare
     SetTextColor 255 255 0
     SetBackgroundColor 50 230 100
@@ -451,7 +451,7 @@ Show
 # Section: Tier B Gear
 
 Show
-    BaseType "Gemini Claw" "Tornado Wand" "Opal Wand" "Prophecy Wand" "Vaal Rapier" "Harpy Rapier" "Profane Wand" "Spiraled Foil" "Skean" "Kris" "Demon Dagger" "Ezomyte Dagger" "Corsair Sword" "Vaal Axe" "Coronal Maul" "Harbinger Bow" "Void Sceptre" "Sambar Sceptre" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Eternal Burgonet" "Sinner Tricorne" "Solaris Circlet" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver"
+    BaseType "Gemini Claw" "Tornado Wand" "Opal Wand" "Prophecy Wand" "Vaal Rapier" "Harpy Rapier" "Profane Wand" "Spiraled Foil" "Skean" "Kris" "Demon Dagger" "Ezomyte Dagger" "Corsair Sword" "Vaal Axe" "Coronal Maul" "Harbinger Bow" "Void Sceptre" "Sambar Sceptre" "Crusader Boots" "Nightmare Bascinet" "Murder Boots" "Dragonscale Boots" "Vaal Greaves" "Stealth Boots" "Murder Mitts" "Dragonscale Gauntlets" "Crusader Gloves" "Vaal Gauntlets" "Praetor Crown" "Deicide Mask" "Eternal Burgonet" "Sinner Tricorne" "Solaris Circlet" "Arcanist Slippers" "Arcanist Gloves" "Mind Cage" "Sorcerer Boots" "Sorcerer Gloves" "Harmonic Spirit Shield" "Supreme Spiked Shield" "Glorious Plate" "Saintly Chainmail" "Spike-Point Arrow Quiver" "Vaal Regalia" "Carnal Armour" "Archon Kite Shield" "Elegant Round Shield" "Pinnacle Tower Shield" "Assassin's Garb" "Broadhead Arrow Quiver" "Gold Ring"
     Rarity = Rare
     SetTextColor 255 255 0
     SetBackgroundColor 37 176 76
@@ -461,7 +461,7 @@ Show
 # Section: Tier C Gear
 
 Show
-    BaseType "Chain Belt" "Cloth Belt" "Iron Ring" "Gold Ring" "Unset Ring" "Two-Stone Ring" "Rustic Sash" "Death Bow"
+    BaseType "Chain Belt" "Cloth Belt" "Iron Ring" "Unset Ring" "Rustic Sash" "Death Bow"
     Rarity = Rare
     SetTextColor 255 255 0
     SetBackgroundColor 18 84 36
@@ -527,19 +527,34 @@ Show
     SetBorderColor 128 0 128
     SetFontSize 40
 
-# Section: GEAR SOCKETS
+# Section: GEAR SOCKETS (RECIPES)
 
 Show
     Sockets = 6
-    Rarity = Normal
-    SetTextColor 255 255 255
+    Height = 4
+    Width = 2
+    Rarity = Rare
+    SetTextColor 255 255 119
     SetBackgroundColor 74 53 86
     SetBorderColor 74 0 160 200
     SetFontSize 45
-    PlayAlertSound 2 100
+    PlayAlertSound 2 300
 
 Show
     Sockets = 6
+    Height = 3
+    Width = 2
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 74 53 86
+    SetBorderColor 74 0 160 200
+    SetFontSize 40
+    PlayAlertSound 2 300
+
+Show
+    Sockets = 6
+    Height = 4
+    Width = 2
     Rarity = Magic
     SetTextColor 136 136 255
     SetBackgroundColor 74 53 86
@@ -549,41 +564,179 @@ Show
 
 Show
     Sockets = 6
-    Rarity = Rare
-    SetTextColor 255 255 119
+    Height = 3
+    Width = 2
+    Rarity = Magic
+    SetTextColor 136 136 255
+    SetBackgroundColor 74 53 86
+    SetBorderColor 74 0 160 200
+    SetFontSize 40
+    PlayAlertSound 2 200
+
+Show
+    Sockets = 6
+    Height = 4
+    Width = 2
+    Rarity = Normal
+    SetTextColor 255 255 255
     SetBackgroundColor 74 53 86
     SetBorderColor 74 0 160 200
     SetFontSize 45
-    PlayAlertSound 2 300
+    PlayAlertSound 2 100
+
+Show
+    Sockets = 6
+    Height = 3
+    Width = 2
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 74 53 86
+    SetBorderColor 74 0 160 200
+    SetFontSize 40
+    PlayAlertSound 2 100
 
 Show
     LinkedSockets >= 3
     SocketGroup "RGB"
+    Height >= 4
+    Width >= 2
     Rarity = Rare
     SetTextColor 255 215 0
     SetBackgroundColor 127 127 127
     SetBorderColor 99 92 92
-    SetFontSize 38
+    SetFontSize 45
 
 Show
     LinkedSockets >= 3
     SocketGroup "RGB"
+    Height >= 3
+    Width >= 2
+    Rarity = Rare
+    SetTextColor 255 215 0
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 40
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height = 2
+    Width = 2
+    Rarity = Rare
+    SetTextColor 255 215 0
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 35
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height <= 3
+    Width = 1
+    Rarity = Rare
+    SetTextColor 255 215 0
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 30
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height >= 4
+    Width >= 2
     Rarity = Magic
     SetTextColor 0 0 255
     SetBackgroundColor 127 127 127
     SetBorderColor 99 92 92
-    SetFontSize 38
+    SetFontSize 45
 
 Show
     LinkedSockets >= 3
     SocketGroup "RGB"
+    Height >= 3
+    Width >= 2
+    Rarity = Magic
+    SetTextColor 0 0 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 40
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height = 2
+    Width = 2
+    Rarity = Magic
+    SetTextColor 0 0 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 35
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height <= 3
+    Width = 1
+    Rarity = Magic
+    SetTextColor 0 0 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 30
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height >= 4
+    Width >= 2
     Rarity = Normal
     SetTextColor 255 255 255
     SetBackgroundColor 127 127 127
     SetBorderColor 99 92 92
-    SetFontSize 38
+    SetFontSize 45
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height >= 3
+    Width >= 2
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 40
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height = 2
+    Width = 2
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 35
+
+Show
+    LinkedSockets >= 3
+    SocketGroup "RGB"
+    Height <= 3
+    Width = 1
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 127 127 127
+    SetBorderColor 99 92 92
+    SetFontSize 30
 
 # Section: GEAR BY QUALITY
+
+Show
+    Sockets >= 5
+    Rarity = Unique
+    SetTextColor 99 0 0
+    SetBackgroundColor 180 96 0
+    SetBorderColor 99 0 0
+    SetFontSize 45
+    PlayAlertSound 8 300
 
 Show
     Rarity = Unique

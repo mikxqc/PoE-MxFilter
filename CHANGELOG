@@ -1,3 +1,22 @@
+[October 20, 2017][2.7.0]
++	Added a >=5 Sockets Unique Filter.
+!	Expensive Unique Maps Update
+U	"Harbinger Map" has been added to the Expensive Unique Category.
+!	Expensive Unique Weapons Update
+U	"Void Axe" has been removed from the Expensive Unique Weapons Category.
+U	"Death Bow" has been removed from the Expensive Unique Weapons Category.
+U	"Jewelled Foil" has added to the Expensive Unique Weapons Category.
+U	"Sage Wand" has been added to the Expensive Unique Weapons Category.
+!	Expensive Unique Armours Update
+U	"Raven Mask" has been added to the Expensive Unique Armours Category.
+U	"Sage's Robe" has been added to the Expensive Unique Armours Category.
+U	"Arcanist Slippers" has been added to the Expensive Unique Armours Category.
+U	"Blunt Arrow Quiver" has been added to the Expensive Unique Armours Category.
+T	"Gold Ring" has been moved from Tier C to Tier B.
+T	"Two-Stone Ring" has been moved from Tier C to Tier A.
+>	Tweaked all the Jeweler's Orb Recipe Filter size according to their item height and width.
+>	Tweaked all the Chromatic Orb Recipe Filter size according to their item height and width.
+
 [October 20, 2017][2.6.0]
 !	QoL/Fixes update with no major additions.
 >	Needed tweaks to the Quest Item Filter to be more unique looking. (Looked like Tier A too much imo...)
