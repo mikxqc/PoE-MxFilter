@@ -9,9 +9,9 @@
 
 Show
     Class "Quest Items"
-    SetTextColor 0 0 0
-    SetBackgroundColor 50 230 100
-    SetBorderColor 18 89 38
+    SetTextColor 17 158 56
+    SetBackgroundColor 200 200 200
+    SetBorderColor 0 0 0
     SetFontSize 45
 
 Show
@@ -323,7 +323,7 @@ Show
 
 Show
     Class "Currency"
-    BaseType "Regal Orb" "Orb of Chance" "Jeweller's Orb" "Chromatic Orb"
+    BaseType "Regal Orb" "Orb of Chance" "Jeweller's Orb" "Chromatic Orb" "Orb of Alchemy"
     SetTextColor 255 165 0
     SetBackgroundColor 54 32 3
     SetBorderColor 175 96 37
@@ -382,65 +382,6 @@ Show
     SetBorderColor 175 96 37
     SetFontSize 35
     PlayAlertSound 3 100
-
-# Section: RING & AMULET (NORMAL/MAGIC/RARE)
-
-Show
-    Class "Rings"
-    BaseType "Breach"
-    Rarity = Rare
-    SetTextColor 255 255 119
-    SetBackgroundColor 74 0 160 200
-    SetBorderColor 49 5 99 200
-    SetFontSize 40
-
-Show
-    Class "Rings"
-    Rarity = Normal
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 150
-    SetBorderColor 128 0 128
-    SetFontSize 30
-
-Show
-    Class "Rings"
-    Rarity = Magic
-    SetTextColor 30 144 255
-    SetBackgroundColor 0 0 0 150
-    SetBorderColor 128 0 128
-    SetFontSize 35
-
-Show
-    Class "Rings"
-    Rarity = Rare
-    SetTextColor 255 255 119
-    SetBackgroundColor 0 0 0 150
-    SetBorderColor 128 0 128
-    SetFontSize 40
-
-Show
-    Class "Amulets"
-    Rarity = Normal
-    SetTextColor 255 255 255
-    SetBackgroundColor 0 0 0 150
-    SetBorderColor 128 0 128
-    SetFontSize 30
-
-Show
-    Class "Amulets"
-    Rarity = Magic
-    SetTextColor 30 144 255
-    SetBackgroundColor 0 0 0 150
-    SetBorderColor 128 0 128
-    SetFontSize 35
-
-Show
-    Class "Amulets"
-    Rarity = Rare
-    SetTextColor 255 255 119
-    SetBackgroundColor 0 0 0 150
-    SetBorderColor 128 0 128
-    SetFontSize 40
 
 # Section: EXPENSIVE UNIQUE (>20c) (Maps)
 
@@ -527,6 +468,65 @@ Show
     SetBorderColor 14 64 28
     SetFontSize 40
 
+# Section: RING & AMULET (NORMAL/MAGIC/RARE)
+
+Show
+    Class "Rings"
+    BaseType "Breach"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 49 5 99 200
+    SetFontSize 40
+
+Show
+    Class "Rings"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0 150
+    SetBorderColor 128 0 128
+    SetFontSize 30
+
+Show
+    Class "Rings"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 0 0 150
+    SetBorderColor 128 0 128
+    SetFontSize 35
+
+Show
+    Class "Rings"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 0 0 150
+    SetBorderColor 128 0 128
+    SetFontSize 40
+
+Show
+    Class "Amulets"
+    Rarity = Normal
+    SetTextColor 255 255 255
+    SetBackgroundColor 0 0 0 150
+    SetBorderColor 128 0 128
+    SetFontSize 30
+
+Show
+    Class "Amulets"
+    Rarity = Magic
+    SetTextColor 30 144 255
+    SetBackgroundColor 0 0 0 150
+    SetBorderColor 128 0 128
+    SetFontSize 35
+
+Show
+    Class "Amulets"
+    Rarity = Rare
+    SetTextColor 255 255 119
+    SetBackgroundColor 0 0 0 150
+    SetBorderColor 128 0 128
+    SetFontSize 40
+
 # Section: GEAR SOCKETS
 
 Show
@@ -594,20 +594,20 @@ Show
     PlayAlertSound 8 300
 
 Show
-    Sockets >= 3
-    Rarity = Rare
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 255 119 220
-    SetBorderColor 126 133 6
-    SetFontSize 30
-
-Show
     Sockets >= 5
     Rarity = Rare
     SetTextColor 0 0 0
-    SetBackgroundColor 255 255 119 230
+    SetBackgroundColor 255 255 0
+    SetBorderColor 104 110 9
+    SetFontSize 38
+
+Show
+    Sockets >= 3
+    Rarity = Rare
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 255 0
     SetBorderColor 126 133 6
-    SetFontSize 35
+    SetFontSize 30
 
 Show
     Rarity = Rare

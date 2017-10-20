@@ -1,5 +1,6 @@
-**Path of Exile - Loot Filter(s)**  
-All the included filter are created by mikx.  
+## Path of Exile - Loot Filter(s)  
+This filter is created and maintained by mikx.  
+If you need help setting up an Item Filter, visit my Discord : https://discord.gg/tVSjSzq
 
 ## MxFilter.filter  
 **Sound(s):** Yes  

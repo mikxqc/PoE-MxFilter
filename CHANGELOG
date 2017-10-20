@@ -1,3 +1,17 @@
+[October 20, 2017][2.6.0]
+!	QoL/Fixes update with no major additions.
+>	Needed tweaks to the Quest Item Filter to be more unique looking. (Looked like Tier A too much imo...)
+~	Tweaked the Quest Item Filter background/font color.
+~	Added "Orb of Alchemy" to the Currency Filter for desirable currency.
+>	Fixed the Ring Filter ordering preventing Tier C rings from being shown as a Tier C loot.
+!	Neved realized >=3 Sockets Rare Filter before >=5 Sockets Rare Filter made >=3 Sockets Rare Filter trigger even on a 5+ sockets. (fail hard...)
+>	Ordered >=5 Sockets Rare Filter before >=3 Sockets Rare Filter.
+!	Now that we will be seeing the >=5 Sockets Rare Filter, i made it a little bit bigger so it stand out more from the common >=3 Sockets Rare Filter.
+~	Tweaked >=5 Sockets Rare Filter size.
+!	The 3 Sockets and 5 Sockets Rare Filter needed a tweaks real bad due to their strange (creamy looking?) background color.
+~	Tweaked >=3 Sockets Rare Filter background color.
+~	Tweaked >=5 Sockets Rare Filter background color.
+
 [October 19, 2017][2.5.0]
 >	Divided Flask Filter into categories for easier identification. (Life, Mana, Hybrid and Others)
 +	Added a Normal Life Flask Filter.
