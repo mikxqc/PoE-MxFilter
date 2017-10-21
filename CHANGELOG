@@ -1,3 +1,12 @@
+[October 21, 2017][2.8.0]
+!	Updated with the latest MxFilterGen data.
+~	Tweaked the Magic Jewel Filter border color.
+~	Tweaked the Rare Jewel Filter border color.
+~	Tweaked the Unique Jewel Filter border color.
+~	Moved "Regal Orb" from desirable currency to semi valuable currency.
+T	"Crystal Belt" has been added to the Tier C Filter.
+T	"Leather Belt" has been added to the Tier C Filter.
+
 [October 20, 2017][2.7.0]
 +	Added a >=5 Sockets Unique Filter.
 !	Expensive Unique Maps Update
