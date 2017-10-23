@@ -1,3 +1,12 @@
+[October 21, 2017][2.9.0]
+!	Updated with the latest MxFilterGen data.
+!	Always thought the Skill Gems Filter was looking a lot like the Flask Filter due to their similar colors. No longer.
+~	Tweaked the <=5 Skill Gems Filter font, background and border color.
+~	Tweaked the <=10 Skill Gems Filter font, background and border color.
+~	Tweaked the <=20 Skill Gems Filter font, background and border color.
+~	Tweaked the (Drop Only) Skill Gems Filter background color.
+~	Tweaked the Vaal Skill Gems Filter background color.
+
 [October 21, 2017][2.8.1]
 !	Updated with the latest MxFilterGen data including a major fix.
 

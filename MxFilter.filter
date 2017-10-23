@@ -33,37 +33,37 @@ Show
 # Section: SKILL GEM
 
 Show
-    Quality <= 5
-    Quality >= 1
+    Quality <= 20
+    Quality >= 11
     Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
-    SetTextColor 187 139 232
-    SetBackgroundColor 74 0 160 150
-    SetBorderColor 0 31 196
-    SetFontSize 35
+    SetTextColor 255 228 223 220
+    SetBackgroundColor 117 12 117 150
+    SetBorderColor 84 5 84
+    SetFontSize 45
 
 Show
     Quality <= 10
     Quality >= 6
     Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
-    SetTextColor 187 139 232
-    SetBackgroundColor 74 0 160 150
-    SetBorderColor 0 31 196
+    SetTextColor 255 228 223 220
+    SetBackgroundColor 117 12 117 150
+    SetBorderColor 84 5 84
     SetFontSize 40
 
 Show
-    Quality <= 20
-    Quality >= 11
+    Quality <= 5
+    Quality >= 1
     Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
-    SetTextColor 187 139 232
-    SetBackgroundColor 74 0 160 150
-    SetBorderColor 0 31 196
-    SetFontSize 45
+    SetTextColor 255 228 223 220
+    SetBackgroundColor 117 12 117 150
+    SetBorderColor 84 5 84
+    SetFontSize 35
 
 Show
     Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
     BaseType "Added Chaos Damage Support" "Detonate Mines" "Empower Support" "Enhance Support" "Enlighten Support" "Portal" "Vaal"
     SetTextColor 255 165 0
-    SetBackgroundColor 74 0 160 150
+    SetBackgroundColor 117 12 117 150
     SetBorderColor 255 165 0
     SetFontSize 45
 
@@ -71,7 +71,7 @@ Show
     Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
     BaseType "Vaal"
     SetTextColor 235 129 129
-    SetBackgroundColor 74 0 160 150
+    SetBackgroundColor 117 12 117 150
     SetBorderColor 235 129 129
     SetFontSize 45
 
@@ -259,7 +259,7 @@ Show
 
 Show
     Class "Divination Card"
-    BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "Mawr Blaidd" "Hunter's Reward" "The Queen" "The Immortal" "The Wolf" "The Standoff" "Abandoned Wealth" "The Wolven King's Bite" "The Dragon's Heart" "Pride Before the Fall" "Wealth and Power" "The King's Heart" "Last Hope" "The Celestial Justicar" "Heterochromia" "The Last One Standing"
+    BaseType "House of Mirrors" "The Doctor" "The Fiend" "The Spark and the Flame" "The Queen" "Hunter's Reward" "The Immortal" "The Wolf" "The Standoff" "Abandoned Wealth" "The Dragon's Heart" "The Wolven King's Bite" "Pride Before the Fall" "The King's Heart" "Last Hope" "Wealth and Power" "The Celestial Justicar" "Heterochromia"
     SetTextColor 20 65 110
     SetBackgroundColor 224 224 224
     SetBorderColor 57 97 145
@@ -399,7 +399,7 @@ Show
 # Section: EXPENSIVE UNIQUE (>20c) (Weapons)
 
 Show
-    BaseType "Midnight Blade" "Ritual Sceptre" "Cutlass" "Vaal Axe" "Infernal Sword" "Prophecy Wand" "Imperial Bow" "Vaal Blade" "Royal Bow" "Jewelled Foil" "Steelhead" "Maelström Staff" "Despot Axe" "Death Bow" "Sage Wand"
+    BaseType "Cutlass" "Ritual Sceptre" "Vaal Axe" "Infernal Sword" "Imperial Bow" "Prophecy Wand" "Vaal Blade" "Jewelled Foil" "Royal Bow" "Steelhead" "Maelström Staff" "Despot Axe" "Death Bow" "Gavel" "Siege Axe" "Sage Wand"
     Rarity = Unique
     SetTextColor 222 95 0
     SetBackgroundColor 255 255 255
@@ -410,7 +410,7 @@ Show
 # Section: EXPENSIVE UNIQUE (>20c) (Armours)
 
 Show
-    BaseType "Vaal Gauntlets" "Sorcerer Boots" "Ebony Tower Shield" "Two-Point Arrow Quiver" "Hubris Circlet" "Crusader Boots" "Legion Gloves" "Glorious Plate" "Goathide Boots" "Rawhide Boots" "Mind Cage" "Clasped Mitts" "Callous Mask" "Raven Mask" "Ezomyte Tower Shield" "Sacrificial Garb" "Exquisite Leather" "Arcanist Slippers" "Cedar Tower Shield" "Occultist's Vestment" "Sage's Robe" "Wyrmscale Doublet" "Callous Mask Piece" "Fire Arrow Quiver" "Close Helmet"
+    BaseType "Vaal Gauntlets" "Ebony Tower Shield" "Sorcerer Boots" "Two-Point Arrow Quiver" "Legion Gloves" "Hubris Circlet" "Crusader Boots" "Glorious Plate" "Goathide Boots" "Mind Cage" "Rawhide Boots" "Clasped Mitts" "Callous Mask" "Raven Mask" "Ezomyte Tower Shield" "Sacrificial Garb" "Exquisite Leather" "Arcanist Slippers" "Occultist's Vestment" "Sage's Robe" "Cedar Tower Shield" "Wyrmscale Doublet" "Blunt Arrow Quiver" "Callous Mask Piece" "Fire Arrow Quiver" "Close Helmet"
     Rarity = Unique
     SetTextColor 222 95 0
     SetBackgroundColor 255 255 255
@@ -421,7 +421,7 @@ Show
 # Section: EXPENSIVE UNIQUE (>20c) (Accessories)
 
 Show
-    BaseType "Leather Belt" "Greatwolf Talisman" "Rustic Sash" "Prismatic Ring" "Two-Stone Ring" "Citrine Amulet" "Amber Amulet" "Onyx Amulet" "Moonstone Ring" "Agate Amulet" "Topaz Ring" "Jade Amulet" "Gold Amulet" "Ruby Amulet" "Turquoise Amulet" "Diamond Ring" "Unset Ring" "Wereclaw Talisman" "Sapphire Ring" "Lapis Amulet"
+    BaseType "Leather Belt" "Greatwolf Talisman" "Rustic Sash" "Prismatic Ring" "Two-Stone Ring" "Citrine Amulet" "Amber Amulet" "Onyx Amulet" "Moonstone Ring" "Agate Amulet" "Topaz Ring" "Jade Amulet" "Ruby Amulet" "Gold Amulet" "Diamond Ring" "Turquoise Amulet" "Wereclaw Talisman" "Unset Ring" "Lapis Amulet" "Sapphire Ring"
     Rarity = Unique
     SetTextColor 222 95 0
     SetBackgroundColor 255 255 255
