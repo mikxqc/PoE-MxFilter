@@ -33,13 +33,13 @@ Show
 # Section: SKILL GEM
 
 Show
-    Quality <= 20
-    Quality >= 11
+    Quality <= 5
+    Quality >= 1
     Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
     SetTextColor 255 228 223 220
     SetBackgroundColor 117 12 117 150
     SetBorderColor 84 5 84
-    SetFontSize 45
+    SetFontSize 35
 
 Show
     Quality <= 10
@@ -51,13 +51,13 @@ Show
     SetFontSize 40
 
 Show
-    Quality <= 5
-    Quality >= 1
+    Quality <= 20
+    Quality >= 11
     Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"
     SetTextColor 255 228 223 220
     SetBackgroundColor 117 12 117 150
     SetBorderColor 84 5 84
-    SetFontSize 35
+    SetFontSize 45
 
 Show
     Class "Active Skill Gems" "Support Skill Gems" "Skill Gems"

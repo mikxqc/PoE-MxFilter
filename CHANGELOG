@@ -1,4 +1,7 @@
-[October 21, 2017][2.9.0]
+[October 23, 2017][2.9.1]
+!	Failed hard with the Skill Gems Filters order. Fixed.
+
+[October 23, 2017][2.9.0]
 !	Updated with the latest MxFilterGen data.
 !	Always thought the Skill Gems Filter was looking a lot like the Flask Filter due to their similar colors. No longer.
 ~	Tweaked the <=5 Skill Gems Filter font, background and border color.
