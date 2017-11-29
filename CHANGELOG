@@ -1,3 +1,8 @@
+[November 29, 2017][2.11.0]
+!	Updated with the latest MxFilterGen data.
+~	"Chaos Orb" Filter now use the 3.0.0 "ShChaos" alert sound.
++	Added a filter for normal skill gems with no quality. (Useful for leveling in a new league/race)
+
 [October 26, 2017][2.10.0]
 !	Updated with the latest MxFilterGen data.
 ~	Tweaked the Tier A Filter background color.
@@ -97,7 +102,7 @@ T	"Two-Stone Ring" has been moved from Tier C to Tier A.
 >	Various Currency Filter fixes and optimizations.
 +	Added a Currency Filter for semi valuable currency.
 ~	Tweaked the Currency Shards Filter color and transparency.
->	Changed the Tier Filters colors to fix a visiblity problem with Tier A. 
+>	Changed the Tier Filters colors to fix a visiblity problem with Tier A.
 ~	Tweaked the Tier A Filter color.
 ~	Tweaked the Tier B Filter color.
 ~	Tweaked the Tier C Filter color.
@@ -152,5 +157,3 @@ T	"Bone Helmet" has been moved to Tier A due to the new popularity of Spectres B
 - Tweaked the color of many filters
 - Tweaked the size of many filters
 - Too much tweaks/fixes to list them all
-
-
