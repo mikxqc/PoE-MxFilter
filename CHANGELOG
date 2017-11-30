@@ -1,3 +1,6 @@
+[November 30, 2017][2.11.1]
+!	Filtration doesn't seem to like the 3.0.0 alert sound. Fixed the filter not loading.
+
 [November 29, 2017][2.11.0]
 !	Updated with the latest MxFilterGen data.
 ~	"Chaos Orb" Filter now use the 3.0.0 "ShChaos" alert sound.

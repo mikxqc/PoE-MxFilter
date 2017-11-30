@@ -308,7 +308,7 @@ Show
     SetBackgroundColor 247 108 37
     SetBorderColor 175 96 37
     SetFontSize 45
-    PlayAlertSound 300 79
+    PlayAlertSound ShChaos 300
 
 Show
     Class "Currency"
